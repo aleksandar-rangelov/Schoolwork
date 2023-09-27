@@ -7,7 +7,10 @@ public class School {
     private ArrayList<Teacher> teachers;
     private ArrayList<Group> groups;
     private ArrayList<Student> students;
-    
+
+    public School(String name){
+        this.name = name;
+    }
     public String getName(){
         return this.name;
     }
